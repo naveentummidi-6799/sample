@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+</head>
+<body>
+	<div>
+		<label for="First Name">Name</label><br>
+		<input type="text" name="First Name" placeholder=" " required>
+                <br>
+		<label for="Last Name">Last Name</label><br>
+		<input type="text" name="Last Name" placeholder=" " required>
+	</div>
+	<div>
+		<label for="email">E-mail</label><br>
+		<input type="email" name="Email">
+	</div>
+<label for="start">D.O.B</label></br>
+<input type="date" id="start" name="trip-start"
+       value="dd/mm/yyyy"
+       min="01/01/1985" max="31/12/2020">
+<br>
+<label for="start">Year</label><br>
+<input type="number" min="1900" max="2099" step="1" value="" />
+<br>
+<label for="gender-male">Male</label>
+<input type="radio" name="gender" value="choice 1">
+<label for="gender-female">Female</label>
+<input type="radio" name="gender" value="choice 2">
+<br>
+<label for="agree">Do you like coding?</label>
+<input type ="checkbox" name="agree">
+<br>
+<button type="submit">Submit</button>
+</body>
+</html>

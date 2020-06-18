@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <style>
+        body {
+            background-image: url("pexels-photo-921322.jpg");
+            background-attachment: scroll;
+            background-size: cover;
+            width: auto;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            color: #fff;
+            margin-left: 620px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        h3 {
+            color: #fff;
+            margin-left: 500px;
+        }
+
+        .main {
+            width: 600px;
+            height: 1050px;
+            background-color: #2a2b49;
+            opacity: 0.9;
+            margin-left: 470px;
+        }
+
+        .side {
+            padding: 30px;
+        }
+
+        .side {
+            color: #fff;
+        }
+
+        .lab {
+            padding-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .name {
+            width: 525px;
+            background-color: #fff;
+            border-radius: 5px;
+            height: 20px;
+            padding-left: 10px;
+            margin-top: 8px;
+        }
+
+        .headName {
+            margin-bottom: 20px;
+        }
+
+        .hsize {
+            height: 30px;
+            width: 100%;
+        }
+
+        .rad {
+            margin-top: 10px;
+        }
+
+        .font-s {
+            font-size: 12px;
+        }
+
+        textarea {
+            padding-left: 10px;
+            padding-top: 10px;
+            resize-col: none;
+        }
+
+        .btn {
+            width: 100%;
+            height: 30px;
+            background-color: #37af65;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Vedic Survey Form</h1>
+    <h3>Thank you for taking the time to help us improve the platform</h3>
+    <div class="main">
+        <div class="side">
+            <div class="headName">
+                <label for="name" class="lab">Name</label>
+                <br>
+                <input type="text" name="name" id="" placeholder="Enter your name" class="name">
+            </div>
+
+            <div class="headName">
+                <label for="name" class="lab">Email</label>
+                <br>
+                <input type="text" name="name" id="" placeholder="Enter your email" class="name">
+            </div>
+
+            <div class="headName">
+                <label for="name" class="lab">Age(optional)</label>
+                <br>
+                <input type="text" name="name" id="" placeholder="Age" class="name">
+            </div>
+
+            <div class="headName">
+                <label for="sel" class="lab">Which option best describes your current role?</label>
+                <br>
+                <select name="role" id="" class="name hsize">
+                    <option value="front">Select current role</option>
+                    <option value="frontend">Front-End</option>
+                    <option value="backend">Back-End</option>
+                </select>
+            </div>
+
+            <div class="headName">
+                <label for="name" class="lab">Would you recommend freeCodeCamp to a friend</label>
+                <br>
+                <input type="radio" name="def" id="" class="rad"><span>Definitely</span>
+                <br>
+                <input type="radio" name="may" id="" class="rad"><span>Maybe</span>
+                <br>
+                <input type="radio" name="def" id="" class="rad"><span>Not sure</span>
+            </div>
+
+            <div class="headName">
+                <label for="sel" class="lab">Which is your favorite feature of freeCodeCamp</label>
+                <br>
+                <select name="role" id="" class="name hsize">
+                    <option value="front">Select an option</option>
+                    <option value="frontend">Front-End</option>
+                    <option value="backend">Back-End</option>
+                </select>
+            </div>
+
+            <div class="headName">
+                <label for="name" class="lab">What would you like to see improved? <span class="font-s">(Check all that
+                        apply)</span></label>
+                <br>
+                <input type="checkbox" name="ch-1" id="" class="rad">Front-end Projects<br>
+                <input type="checkbox" name="ch-2" id="" class="rad">Back-end Projects<br>
+                <input type="checkbox" name="ch-3" id="" class="rad">Data Visualization<br>
+                <input type="checkbox" name="ch-4" id="" class="rad">Challenges<br>
+                <input type="checkbox" name="ch-5" id="" class="rad">Open source community<br>
+                <input type="checkbox" name="ch-6" id="" class="rad">Gitter help rooms<br>
+                <input type="checkbox" name="ch-7" id="" class="rad">Videos<br>
+                <input type="checkbox" name="ch-8" id="" class="rad">City Meetups<br>
+                <input type="checkbox" name="ch-9" id="" class="rad">Wiki<br>
+                <input type="checkbox" name="ch-10" id="" class="rad">Forum<br>
+                <input type="checkbox" name="ch-11" id="" class="rad">Additional Courses<br>
+            </div>
+
+
+            <div class="headName">
+                <label for="name" class="lab">Any comments or suggestions?</label>
+                <br>
+                <textarea name="comments" id="" cols="71" rows="5" class="rad"
+                    placeholder="Enter your comment here..."></textarea>
+            </div>
+
+            <div class="headName">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
